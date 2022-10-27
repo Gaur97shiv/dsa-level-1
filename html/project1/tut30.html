@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>more on css selector</title>
+    <style>
+        h1{
+            background-color: brown;
+            font-size: 25px;
+           margin: auto;
+            color: rgb(221, 199, 199);
+            width: 400px;
+            text-align: center;
+            
+        }
+         /* div  p{
+            background-color: yellow;
+          }*/
+          div > p{
+            background-color: rgb(111, 111, 90);
+          }
+          div + p{
+            background-color: yellow;
+          }
+         
+    </style>
+</head>
+<body>
+    <h1>this is on css selector</h1>
+    <div class="container">
+        <div class="box">
+            <ul>
+                <li>
+                    <p>this is hero man</p>
+                </li>
+            </ul>
+            <p>this is paragraph</p>
+        </div>
+        <p>this is a paragraph</p>
+    </div>
+    <p>this is a hero man</p>
+    
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>visibility and z-index</title>
+    <style>
+        .container{
+            border: 2px solid rgb(231, 25, 25);
+            
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            border: 2px solid coral;
+            margin: 4px;
+            padding: 3px;
+            }
+            #box1{
+                background-color: rgb(158, 126, 126) ;
+                position: relative ;
+                top  :60px;
+                z-index: 33px;
+            }
+            #box2{
+                background-color: green;
+                /*visibility: hidden;*/
+                position: relative;
+                top: 50px;
+                z-index: 20px;
+            }
+
+            
+            #box3{
+                background-color: cyan;
+            }
+            #box4{
+                background-color: blue;
+            }
+            #box5{
+                background-color: brown;
+            }
+            #box6{
+                background-color: slateblue;
+            }
+
+
+            
+
+    </style>
+</head>
+<body>
+    <h3>this is visibility heading</h3>
+    <div class="container">
+     <div class="box" id="box1">firstbox</div>
+     <div class="box" id="box2">secondbox</div>
+     <div class="box" id="box3">thirdbox</div>
+     <div class="box" id="box4">forthbox</div>
+     <div class="box" id="box5">fifthbox</div>
+     <div class="box" id="box6">sixthbox</div>
+    </div>
+    
+</body>
+</html>
